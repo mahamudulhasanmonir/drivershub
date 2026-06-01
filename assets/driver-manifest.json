@@ -1,0 +1,19 @@
+{
+  "Name": "Drivershub - All in one drivers by Mahamudul",
+  "Version": "0.1.0",
+  "LogoPath": "branding/logo.png",
+  "Steps": [
+    {
+      "Name": "ADB Driver",
+      "Path": "drivers/adb"
+    },
+    {
+      "Name": "Fastboot Driver",
+      "Path": "drivers/fastboot"
+    },
+    {
+      "Name": "Qualcomm Driver",
+      "Path": "drivers/qualcomm"
+    }
+  ]
+}
