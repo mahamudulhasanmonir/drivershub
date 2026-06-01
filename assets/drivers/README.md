@@ -8,5 +8,10 @@ Expected layout:
 - `fastboot/`
 - `qualcomm/`
 
-Each folder should contain the driver INF files and any supporting CAT/SYS files needed for installation.
+Each folder should contain:
 
+- `driver-package.json`
+- the driver INF files
+- supporting CAT/SYS files needed for installation
+
+The package descriptor tells the installer which files should be present and which install mode to use.

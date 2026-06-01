@@ -1,0 +1,8 @@
+{
+  "Name": "Fastboot Driver Package",
+  "InstallMode": "pnputil",
+  "PrimaryFiles": [
+    "fastboot Driver/android_winusb.inf"
+  ],
+  "Notes": "Fastboot driver is installed from the bundled INF package."
+}

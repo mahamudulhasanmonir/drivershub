@@ -5,15 +5,21 @@
   "Steps": [
     {
       "Name": "ADB Driver",
-      "Path": "drivers/adb"
+      "Path": "drivers/adb",
+      "InstallMode": "exe",
+      "Descriptor": "driver-package.json"
     },
     {
       "Name": "Fastboot Driver",
-      "Path": "drivers/fastboot"
+      "Path": "drivers/fastboot",
+      "InstallMode": "pnputil",
+      "Descriptor": "driver-package.json"
     },
     {
       "Name": "Qualcomm Driver",
-      "Path": "drivers/qualcomm"
+      "Path": "drivers/qualcomm",
+      "InstallMode": "pnputil",
+      "Descriptor": "driver-package.json"
     }
   ]
 }

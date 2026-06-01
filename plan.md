@@ -22,10 +22,27 @@ Notes:
 - Map each payload to a manifest entry.
 - Verify silent install paths for each package.
 
+Status: Completed
+
+Notes:
+- Package descriptors now exist for each driver folder.
+- The installer validates package metadata before attempting `pnputil`.
+- Real driver payload files are now present under `assets/drivers`.
+- The installer supports both executable installers and INF-based packages.
+
 ## Phase 3: Installer Flow
 - Implement step-by-step install execution.
 - Add progress reporting and failure handling.
 - Support skipping already-installed components where possible.
+
+Status: Completed
+
+Notes:
+- Installer state is now tracked in `ProgramData`.
+- Step progress is shown with `Write-Progress`.
+- Successful steps can be skipped on repeat runs using package fingerprints.
+- Failed steps are recorded and the final run summary is persisted.
+- The installer now supports `-ContinueOnError` for controlled batch runs.
 
 ## Phase 4: Single-EXE Packaging
 - Bundle the script and driver assets into one executable.

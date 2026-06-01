@@ -1,0 +1,10 @@
+{
+  "Name": "ADB Driver Package",
+  "InstallMode": "exe",
+  "Installer": "ADB-Installer-v1.4.3.exe",
+  "InstallerArguments": [],
+  "PrimaryFiles": [
+    "ADB-Installer-v1.4.3.exe"
+  ],
+  "Notes": "ADB installer package bundled for one-click installation."
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "Qualcomm Driver Package",
+  "InstallMode": "pnputil",
+  "PrimaryFiles": [
+    "Driver/qcser.inf",
+    "Driver/qcser.cat"
+  ],
+  "Notes": "Qualcomm USB driver is installed from the bundled INF package."
+}
